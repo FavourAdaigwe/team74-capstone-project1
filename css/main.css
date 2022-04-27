@@ -1,0 +1,516 @@
+body { 
+   margin: 0;
+   font-family: Open Sans;
+   font-weight: 400, 700;
+   background-color:  hsl(217, 28%, 15%);
+   overflow-x: hidden;
+   }
+ h1,h2,h3,h4,h5,h6{
+   font-family: 'Raleway', sans-serif;
+ } 
+ a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+ } 
+p{
+   font-size: 18px;
+   font-family: 'Open Sans', sans-serif;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   }
+main{
+   background-color: hsl(218, 28%, 13%);
+   margin-top: 200px;
+   }
+
+button{
+   text-decoration: none;
+   color: hsl(0, 0%, 100%);
+   border-radius: 30px;
+   background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+   font-weight: 700;
+   opacity: 1;
+   cursor: pointer;
+   font-family: 'Raleway', sans-serif;
+   border: 0px;
+}
+
+button:hover{
+   background: hsl(176, 68%, 64%) ;
+   opacity: 0.8;
+   cursor: pointer;
+   
+   }
+   
+  
+   *{
+       line-height: 1.5;
+   }
+ 
+/* Nav-bar start*/
+.navbar{
+   display: flex;
+   background-color: transparent;
+   justify-content: space-between;
+   margin-bottom: 100px;
+}
+
+.logo{
+   margin-top: 1em;
+   margin-left: 1em;
+  
+ }
+.navlinks{
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+ }
+ .navlinks ul{
+   display: flex;
+   justify-content: space-between; 
+ }
+
+ .navlinks ul li a:hover{
+    font-weight: 700;
+    text-decoration: underline;
+    color:#fff;
+    
+ }
+ .navlinks ul li{
+   list-style-type: none;
+   margin-left: 10px;
+   justify-content: flex-end;
+   margin-right: 25px;
+ }
+
+
+ .navlinks ul li a{
+   text-decoration: none;
+   color: rgb(230,227,227);
+   font-size: 12px;
+   display: flex;
+   cursor: pointer;
+   font-family: 'Raleway', sans-serif;
+ }
+ /* nav bar end */
+
+ /* header Start */
+
+ .header{
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .header-img{
+    margin-top: 250px;
+ 
+ }
+
+ .header-content{
+   display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ color: hsl(0, 0%, 100%);
+ text-align: center;
+   
+}
+
+.header-heading{
+   font-weight: 700;
+   font-size: 35px;
+   position: absolute;
+   top: 14em;
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+}
+
+.header .background{
+   margin-top: 70px;
+}
+
+.header-para{
+   position: absolute;
+   top: 37.5em;
+   font-weight: 400;
+   font-size: 18px;
+   width: 55ch;
+}
+
+
+ .header-button{ 
+  padding: 10px 60px;
+  font-size: 15px;
+  border: 0px;
+  position: absolute;
+  top: 54em;
+ }
+ 
+
+
+ /* Header End */
+
+ /* Icon section start */
+.icons{
+   color: hsl(0, 0%, 100%);
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+   padding: 100px;
+   padding-bottom:  0px;
+}
+
+.icon-1{
+   display: flex;
+   flex-direction: row;
+}
+
+.icon-access{
+   padding: 0 80px 50px 80px;
+}
+
+
+.icon-1-images{
+   margin-bottom: 50px;
+   /* margin-top: 3px */
+}
+.icon-2-images{
+   margin-bottom: 40px;
+
+}
+.icon-1-head{
+   font-size: larger;
+   font-weight: 700;
+}
+
+.icon-1-para{
+   padding: 0 15px 0 20px;
+}
+
+
+
+
+
+/*Icon section end */
+
+/* Productive section start */
+
+   .productive{
+    display: flex;
+    margin:40px;
+  }
+  .productive-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+   .productive-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+     margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .productive-text h3{
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   margin: 10px 250px 10px 50px;
+   
+ }
+  .productive-text p{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   margin: 10px 70px 10px 50px;
+   font-size: 17px;
+ }
+.productive a{
+   color:  hsl(176, 68%, 64%);
+   margin: 10px 70px 10px 50px;
+   font-size: 15px;
+}
+
+.productive .btn:hover{
+   color:  hsl(0, 0%, 100%);
+   margin: 10px 70px 10px 50px;
+
+}
+
+.productive-text a img{
+  border-radius: 50%;
+  background-color:hsl(176, 68%, 64%);
+  padding: 2px;
+ }
+ 
+ .productive-text a img:hover{
+   background-color: hsl(0, 0%, 100%);
+   
+  }
+
+  a.btn span{
+   padding-right: 10px;
+}
+a.btn{
+   position: relative;
+   padding-bottom: 2px;
+}
+a.btn:before{
+   position: absolute;
+   bottom: 2px;
+   content: '';
+   height: 1px;
+   width: 18.5ch;
+   background-color: hsl(176, 68%, 64%);
+}
+a.btn:hover::before{
+   position: absolute;
+   bottom: 2px;
+   content: '';
+   height: 1px;
+   width: 18.5ch;
+   background-color: hsl(0, 0%, 100%);
+}
+/*productive section end */
+
+/* Testimonial Section 4 start */
+
+.testimonials{
+   display: flex;
+   flex-direction: column;
+   background-color: hsl(218, 28%, 13%);
+   max-width: 100vw;
+   overflow: hidden;
+}
+.testimonial{
+   display: flex;
+   padding: 20px 50px;
+   position: relative;
+   z-index: 10;
+}
+.testimonial::before{
+   content: '';
+   position: absolute;
+   background-image: url(../images/bg-quotes.png);
+   background-size: contain;
+   background-repeat:no-repeat ;
+   left: 55px;
+   top: 15px;
+   height: 45px;
+   width: 45px;
+   z-index: -10;
+}
+
+.box{
+   background-color: hsl(219, 30%, 18%);
+   display: flex;
+   margin: 20px;
+   flex-direction: column;
+   flex: 0.33;
+   border-radius: 2px;
+   padding: 30px; 
+   color: hsl(0, 0%, 100%); 
+}
+
+.details p{
+   font-family:'Open Sans', sans-serif;
+   font-size: 15px;
+}
+
+.box .person{
+   display: flex;
+}
+.person-detail{
+   padding-left: 10px;
+}
+.person img{
+   border-radius: 50%;
+   height: 40px;
+
+   object-fit: contain;
+}
+.person-detail > *{
+   margin: 0;
+   font-size: 15px;
+}
+.person-detail h3{
+   font-size: 12pl;
+   font-weight: 700;
+   font-family: 'Raleway', sans-serif;
+}
+.person-detail p{
+   font-size: 10px;
+}
+/* Testimonial section End */
+/* Access Section Start */
+.access{
+   background-color: hsl(217, 28%, 15%);
+   display: flex;
+   flex-direction:column ;
+   margin: 20px 300px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px hsl(216, 53%, 9%);
+  
+  position: relative;
+  top: 120px;
+}
+
+.access-text{
+   display: flex;
+   flex-direction: column;
+   color: hsl(0, 0%, 100%);
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: 5px 50px;
+   
+}
+
+.access-text h3{
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   margin-bottom: 0px;
+   font-size: 30px;
+ }
+ .access-text p{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 13px;
+   
+ }
+
+ form{
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 70px;
+ }
+ form input{
+   border-radius: 30px;
+   width: 350px;
+   height: 100%;
+    padding: 10px 30px;
+    border: 0px;
+ }
+ 
+form button{
+  padding: 10px 20px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+form button:hover{
+   background: hsl(176, 68%, 64%) ;
+   opacity: 0.8;
+   cursor: pointer;
+  
+ }
+
+ /* Access Section End */
+/* footer section start */
+
+footer{
+	width: 100%;
+	height: 60vh;
+	background: hsl(216, 53%, 9%);
+	display: flex;
+	flex-direction: column;
+	border: block;
+   color: hsl(0, 0%, 100%);
+}
+.logo-head{
+	position: relative;
+	top: 150px;
+	left: 100px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+
+}
+.footer-body{
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	width: 90%;
+	padding-top: 150px;
+	font-size: 14px;
+   margin-bottom: 50px;
+}
+.location{
+	display: flex;
+	margin-right:0px ;
+   width: 300px;
+   margin-top: 0px;
+}
+
+
+.location p, .reach-fylo, .about-fylo, .contact-fylo, .social-icon-link{
+  font-size: 12px;
+}
+.reach-fylo{
+	text-decoration-style: none;
+	list-style: none;
+	margin-right: 150px;
+}
+.about-fylo a{
+	text-decoration: none;
+	list-style: none;
+	
+}
+
+.social-icon-link{
+   margin-left: 50px;
+   display: flex;
+}
+
+li{
+	text-decoration: none;
+	list-style: none;
+	line-height: 2em
+}
+li a{
+	text-decoration: none;
+	
+}
+.fa-solid{
+	margin-right: 15px;
+}
+.icon-location{
+	margin-right: 15px;
+   margin-top: 17px;
+}
+.fa-brands{
+	margin-right: 15px;
+   border: 1px solid hsl(0, 0%, 100%);
+	border-radius: 50%;
+   cursor: pointer;
+}
+.social-icon-link a img{
+   padding: 5px 6px;
+}
+.social-icon-link a i{
+   padding: 5px 6px;
+   position:relative;
+}
+
+a .fa-brands{
+	text-decoration: none;
+   align-items: center;
+	color: hsl(0, 0%, 100%);
+}
+a .fa-brands:hover{
+	
+	color: hsl(176, 68%, 64%);
+   border: 1px solid hsl(176, 68%, 64%);
+}
+.about-fylo li a:hover, .contact-fylo li a:hover{
+   font-weight: 700;
+   font-family:'Open Sans', sans-serif ;
+}
+
+
+/*footer section end */
