@@ -20,6 +20,7 @@ p{
 .content{
    display: flex;
    flex-direction: column;
+overflow:hidden;
    }
 main{
    background-color: hsl(218, 28%, 13%);
